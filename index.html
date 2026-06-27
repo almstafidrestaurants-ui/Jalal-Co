@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jalal Co</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700&family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- شاشة التحميل -->
+<div id="loader">
+
+    <div class="loader-content">
+
+        <img src="images/logo.jpeg" class="logo">
+
+        <h1>Jalal Co</h1>
+
+        <p>جارٍ تحميل قائمتك...</p>
+
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- الصفحة الرئيسية -->
+<div id="main-content">
+
+<header class="header">
+
+<button class="more-btn">
+☰
+</button>
+
+    <div class="header-text">
+        <h1>Jalal Co</h1>
+        <p>Fast Food</p>
+    </div>
+
+    <img src="images/logo.jpeg" class="header-logo">
+
+
+</header>
+
+
+<!-- شريط الأقسام -->
+
+<div class="categories-wrapper">
+
+<button class="arrow-btn" id="leftBtn">
+    ❮
+</button>
+
+    <div class="categories">
+
+       <button class="category active" data-target="sandwich">
+    ساندويش
+</button>
+
+<button class="category" data-target="burger">
+    برغر
+</button>
+
+<button class="category" data-target="boxes">
+    البوكس
+</button>
+
+<button class="category" data-target="starters">
+    ستارترز
+</button>
+
+<button class="category" data-target="Kids-Milana">
+      كيدز - ميلانا
+</button>
+       
+       
+<button class="category" data-target="Jalco-Wings">
+ جلالكو جوانح
+</button>
+         
+
+    </div>
+
+  <button class="arrow-btn" id="rightBtn">
+    ❯
+</button>
+
+</div>
+
+
+
+<!-- ========================================================= الأصناف ================================================================-->
+ <!-- ========================================================= السانويش ================================================================-->
+<section id="sandwich" class="menu-items active">
+
+    <div class="menu-card">
+        <div class="item-image">
+            <img src="images/Jalco Cajun.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3>   جلالكو كاجن </h3>
+            <p>دجاج مشوي،جبنه،تارتار،خس ايس برغ،كبس،ذره،كوكتيل  </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+    <div class="menu-card reverse">
+        <div class="item-image">
+            <img src="images/Jalco Francisco.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3>   جلالكو فرانسيسكو  </h3>
+            <p>  دجاج مشوي،جبنه،مايونيز،خس،كبيس،ذره </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+    <div class="menu-card">
+        <div class="item-image">
+            <img src="images/Jalco Sub.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3> جلالكو ساب  </h3>
+            <p>  دجاج مشوي،جبنه،مايونيز متوم،خس،كبس،ذره  </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+  <div class="menu-card reverse">
+        <div class="item-image">
+               <img src="images/Jalco Chinese.png" alt="">
+        </div>
+
+        <div class="item-info">
+      <h3> جلالكو صيني </h3>
+            <p>  دجاج،فليفله ملونه،جزر،جبنه،مايونيز  </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+
+  <div class="menu-card">
+        <div class="item-image">
+            <img src="images/Jalco Mela.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3> جلالكو ميلا </h3>
+            <p>  دجاج بالكريمه،مايونيز،خس،كبيس،ذره </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+  <div class="menu-card reverse">
+        <div class="item-image">
+        <img src="images/Jalco Fajita.png" alt="">
+        </div>
+
+        <div class="item-info">
+     <h3> جلالكو فاهيتا </h3>
+            <p>   دجاج،فليفله،بصل،فطر فرش،بصل،جبنه،افوكادو صوص </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+  <div class="menu-card">
+        <div class="item-image">
+            <img src="images/Jalco Crispy.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3> جلالكو كرسبي </h3>
+            <p>   كرسبي،كولزلو،كوكتيل،كبيس،تشدر </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+<div class="menu-card reverse">
+        <div class="item-image">
+        <img src="images/Jalco Prawn Boom.png" alt="">
+        </div>
+
+        <div class="item-info">
+       <h3>  جلالكو قريدس بوم  </h3>
+            <p>  قريدس،تارتار،باربكيو،خس،بطاطا شبس</p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+ <div class="menu-card">
+        <div class="item-image">
+            <img src="images/Jalco Prawns.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3> جلالكو قريدس  </h3>
+            <p>   قريدس،حامض،تارتار،كوكتيل،خس،كبس  </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+<div class="menu-card reverse">
+        <div class="item-image">
+        <img src="images/Jalco Crab Prawns.png" alt="">
+        </div>
+
+        <div class="item-info">
+       <h3>  جلالكو كراب/قريدس </h3>
+            <p> كراب،قريدس،تارتار،كوكتيل،حامض </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+     <div class="menu-card">
+        <div class="item-image">
+            <img src="images/Jalco Danimat.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3> جلالكو دانيمات  </h3>
+            <p>  قريدس كرنشي،دانيمات صوص،خس،كبيس </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+
+</section>
+
+<!-- ========================================================= برغر ================================================================-->
+
+<section id="burger" class="menu-items">
+
+   <div class="menu-card">
+        <div class="item-image">
+            <img src="images/Jalco Beef Burger.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3>   جلالكو برغر لحمه  </h3>
+            <p> مايونيز،كبس،ذره،خس،صوص برغر،لحمه،جبنه تشدر،باربكيو،بطاطا شيبس </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+    <div class="menu-card reverse">
+        <div class="item-image">
+            <img src="images/Jalco Mushroom Beef.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3>    جلالكو ماشروم لحمه </h3>
+            <p>  مايونيز،خس،صوص الماشروم،جبنه الايمنتال،كارملايزد اونيون  </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+    <div class="menu-card">
+        <div class="item-image">
+            <img src="images/Jalco Bomb Meat.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3>    جلالكو بوومب لحمه </h3>
+            <p>  مايونيز،بصل+فليفله+صوص بوفلو،افوكادو سلايس، خس،هلابينو،تشدر صوص  </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+  <div class="menu-card reverse">
+        <div class="item-image">
+               <img src="images/Jalco Chicken Boom.png" alt="">
+        </div>
+
+        <div class="item-info">
+      <h3>  جلالكو دجاج بوووم </h3>
+            <p>  صدر دجاج مشوي،مايونيز متوم،كبيس،خس،كوكتيل،ذره،جبنه الايمنتال،تشدر،هاني ماسترد  </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+
+  <div class="menu-card">
+        <div class="item-image">
+            <img src="images/Jalco Chicken.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3>  جلالكو دجاج </h3>
+            <p>  دجاج كرنشي،كبيس،خس،كوكتيل،جبنه تشدر،هوني ماسترد صوص  </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+  <div class="menu-card reverse">
+        <div class="item-image">
+        <img src="images/Jalco Zinger.png" alt="">
+        </div>
+
+        <div class="item-info">
+     <h3>  جلالكو زنجر </h3>
+            <p>   دجاج كرنشي،مايونيز،كبيس،بندوره،،كوكتيل،تشدرصوص ،هوني ماسترد صوص </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+ 
+
+</section>
+
+<!-- ========================================================= البوكس ================================================================-->
+
+<section id="boxes" class="menu-items">
+
+   <div class="menu-card">
+        <div class="item-image">
+            <img src="images/Crispy Mela.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3>     كرسبي ميلا </h3>
+            <p>بطاطا،عصير برتقال،مفاجئه داخل البوكس </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+    <div class="menu-card reverse">
+        <div class="item-image">
+            <img src="images/Hawsa.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3>    هاوساااا </h3>
+            <p>  لحمه مشويه ، مايونيز،روكا،بندوره </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+    <div class="menu-card">
+        <div class="item-image">
+            <img src="images/Jalalko Combo.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3>    جلالكو كومبو </h3>
+            <p>  ٣ كرسبي،٣ موزيريلا ستيك،اونيون رنج،كيرلي فرايز،كوكيتل،هوني ماسترد،دانيمايت صوص </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+  <div class="menu-card reverse">
+        <div class="item-image">
+               <img src="images/Crispy Combo.png" alt="">
+        </div>
+
+        <div class="item-info">
+      <h3>  كرسبي كومبو </h3>
+            <p>  كرسبي،بطاطا،كولزلو،كوكتيل،بيبسي </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+
+</section>
+
+<!-- ========================================================= ستارترز ================================================================-->
+
+<section id="starters" class="menu-items">
+
+   <div class="menu-card">
+        <div class="item-image">
+            <img src="images/Stratars Potato.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3>      بطاطا</h3>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+    <div class="menu-card reverse">
+        <div class="item-image">
+            <img src="images/Stratars Wedges.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3>    ويدجز </h3>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+    <div class="menu-card">
+        <div class="item-image">
+            <img src="images/Stratars Curly Fries.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3>   كيرلي فرايز </h3>
+           
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+  <div class="menu-card reverse">
+        <div class="item-image">
+               <img src="images/Mozzarella Stick.png" alt="">
+        </div>
+
+        <div class="item-info">
+      <h3>   موزيريلا ستيك</h3>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+
+</section>
+
+
+<!-- =========================================================    كيدز - ميلانا================================================================-->
+
+<section id="Kids-Milana" class="menu-items">
+
+   <div class="menu-card">
+        <div class="item-image">
+            <img src="images/Nuggets.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3>     ناغيتس ميلا  </h3>
+            <p> بطاطا، عصير برتقال،مفاجئه داخل البوكس </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+    <div class="menu-card reverse">
+        <div class="item-image">
+            <img src="images/Mila Chicken Burger.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3>          برغر دجاج ميلا </h3>
+            <p>  بطاطا،عصير برتقال،مفاجئه داخل  البوكس</p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+   
+
+</section>
+
+
+<!-- =========================================================  جلالكو جوانح ================================================================-->
+
+<section id="Jalco-Wings" class="menu-items">
+
+   <div class="menu-card">
+        <div class="item-image">
+            <img src="images/BBQ Wings.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3>    جوانح بالباربكيو  </h3>
+            <p> بطاطا، صوص  </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+    <div class="menu-card reverse">
+        <div class="item-image">
+            <img src="images/Buffalo Wings.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3>     جوانح بالبافلو </h3>
+            <p>  بطاطا،صوص </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+    <div class="menu-card">
+        <div class="item-image">
+            <img src="images/Danimite Wings.png" alt="">
+        </div>
+
+        <div class="item-info">
+            <h3>    جوانح دانيمايت </h3>
+            <p>  طاطا ،صوص </p>
+
+            <div class="price-box">$0.00</div>
+        </div>
+    </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<script src="Script.js"></script>
+
+</body>
+</html>
