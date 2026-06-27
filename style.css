@@ -102,7 +102,7 @@ overflow-y:auto;
 /* الهيدر */
 
 .header{
-    height:95px;
+    height:70px;
     padding:20px;
     position:relative;
     display:flex;
@@ -113,9 +113,9 @@ overflow-y:auto;
 
 
 .header-logo{
-    width:80px;
-    height:80px;
-    border-radius:50%;
+    width:65px;
+    height:65px;
+    border-radius:100%;
 }
 
 .header-text{
@@ -130,7 +130,7 @@ overflow-y:auto;
 .header-text h1{
     font-family:'Cairo',sans-serif;
     color:#ff7a00;
-    font-size:24px;
+    font-size:26px;
     font-weight:800;
     letter-spacing:.5px;
 }
@@ -138,7 +138,7 @@ overflow-y:auto;
 .header-text p{
     color:#888;
     font-size:13px;
-    margin-top:3px;
+    margin-top:-8px;
 }
 
 .more-btn{
