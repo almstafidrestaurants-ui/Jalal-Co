@@ -40,6 +40,7 @@ buttons.forEach(button => {
 
 
 /* ================================ arrow ===================*/
+
 const categories = document.querySelector(".categories");
 
 document.getElementById("rightBtn").addEventListener("click", () => {
@@ -56,3 +57,4 @@ document.getElementById("leftBtn").addEventListener("click", () => {
         behavior: "smooth"
     });
 });
+

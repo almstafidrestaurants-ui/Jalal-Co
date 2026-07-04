@@ -102,7 +102,7 @@ overflow-y:auto;
 /* الهيدر */
 
 .header{
-    height:95px;
+    height:70px;
     padding:20px;
     position:relative;
     display:flex;
@@ -113,9 +113,9 @@ overflow-y:auto;
 
 
 .header-logo{
-    width:80px;
-    height:80px;
-    border-radius:50%;
+    width:65px;
+    height:65px;
+    border-radius:100%;
 }
 
 .header-text{
@@ -130,15 +130,15 @@ overflow-y:auto;
 .header-text h1{
     font-family:'Cairo',sans-serif;
     color:#ff7a00;
-    font-size:24px;
+    font-size:26px;
     font-weight:800;
     letter-spacing:.5px;
 }
 
 .header-text p{
     color:#888;
-    font-size:13px;
-    margin-top:3px;
+    font-size:10px;
+    margin-top:-10px;
 }
 
 .more-btn{
@@ -153,7 +153,7 @@ overflow-y:auto;
     display:flex;
     align-items:center;
     gap:8px;
-    padding:15px;
+    padding:10px;
      background:#f7f1eb;
 }
 
@@ -166,6 +166,12 @@ overflow-y:auto;
     color:#777;
     font-size:15px;
     flex-shrink:0;
+}
+
+.arrow-btn.active{
+    background:#ff7a00;
+    color:white;
+    box-shadow:0 10px 25px rgba(255,122,0,.15);
 }
 
 .categories{
@@ -249,7 +255,7 @@ overflow-y:auto;
 /* اسم الوجبة */
 .item-info h3{
     font-family:'Cairo',sans-serif;
-    font-size:25px;
+    font-size:23px;
     color:#ff7a00;
     margin:0 0 10px;
     font-weight:800;
